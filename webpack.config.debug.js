@@ -1,6 +1,6 @@
 // var webpack = require('webpack')
 const path = require('path')
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
+// const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
 
 module.exports = {
     mode: 'development',
@@ -22,7 +22,7 @@ module.exports = {
     //     },
     //     axios: 'axios'
     //   },
-    watch: false,
+    watch: true,
     resolve: {
         extensions: ['.js', 'json']
     },
@@ -44,8 +44,8 @@ module.exports = {
         ]
     },
     plugins: [
-        new BundleAnalyzerPlugin({
-            analyzerMode: 'static'
-        })
+        // new BundleAnalyzerPlugin({
+        //     analyzerMode: 'static'
+        // })
     ]
 }

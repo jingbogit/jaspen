@@ -1,6 +1,7 @@
 import {BoxGeometry, Mesh, MeshBasicMaterial, PerspectiveCamera, Scene, WebGLRenderer} from 'three';
-// import {OrbitControls} from 'three/examples/js/controls/OrbitControls';
+import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls.js';
 
+console.log('ver 0.0.1');
 
 // Example converted from
 // https://threejs.org/docs/index.html#Manual/Introduction/Creating_a_scene
@@ -19,15 +20,15 @@ const cube = new Mesh(geometry, material);
 scene.add(cube);
 
 // let controls: THREE.OrbitControls;
-// const controls = new OrbitControls(camera, renderer.domElement);
+const controls = new OrbitControls(camera, renderer.domElement);
 
 function render(): void {
   requestAnimationFrame(render);
-  // cube.rotation.x += 0.1;
-  // cube.rotation.y += 0.1;
-  // if (controls) {
-  //   controls.update();
-  // }
+  // cube.rotation.x += 0.01;
+  // cube.rotation.y += 0.01;
+  if (controls) {
+    controls.update();
+  }
   renderer.render(scene, camera);
 }
 render();

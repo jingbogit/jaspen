@@ -4,6 +4,7 @@
   "description": "js aspen model web viewer",
   "main": "src/main.ts",
   "scripts": {
+    "debug": "echo \"Build in Debug mode\" && webpack --config webpack.config.debug.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
