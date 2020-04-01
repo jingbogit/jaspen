@@ -1,2 +1,3 @@
 # jaspen
-js aspen model webgl engine
+
+Web visualization for 3d photogrametry models. 
