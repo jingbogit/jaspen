@@ -1,0 +1,8 @@
+.vscode/
+build/
+node_modules/
+src/
+.gitignre
+tsconfig.json
+webpack.*
+yarn.lock

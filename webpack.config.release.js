@@ -3,13 +3,13 @@ const path = require('path')
 // const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
 
 module.exports = {
-    mode: 'development',
+    mode: 'production',
     entry: [
         './src/js/Jaspen.js'
     ],
     devtool: 'source-map',
     output: {
-        path: path.resolve(__dirname, 'build'),
+        path: path.resolve(__dirname, 'release'),
         filename: 'jaspen.js',
         library: 'jaspen',
         libraryTarget: 'umd'

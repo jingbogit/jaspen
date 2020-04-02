@@ -2,9 +2,10 @@
   "name": "jaspen",
   "version": "0.0.1",
   "description": "js aspen model web viewer",
-  "main": "src/main.ts",
+  "main": "release/jaspen.ts",
   "scripts": {
-    "debug": "echo \"Build in Debug mode\" && webpack --config webpack.config.debug.js",
+    "build": "echo \"Build in Debug mode\" && webpack --config webpack.config.debug.js",
+    "release": "echo \"Build in Release mode\" && webpack --config webpack.config.release.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
