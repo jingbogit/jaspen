@@ -31,5 +31,8 @@
   },
   "dependencies": {
     "three": "^0.115.0"
+  },
+  "optionalDependencies": {
+    "obj2gltf": "^3.1.0"
   }
 }
