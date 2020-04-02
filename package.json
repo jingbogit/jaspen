@@ -2,7 +2,7 @@
   "name": "jaspen",
   "version": "0.0.2",
   "description": "js aspen model web viewer",
-  "main": "release/jaspen.ts",
+  "main": "release/jaspen.min.js",
   "scripts": {
     "build": "echo \"Build in Debug mode\" && webpack --config webpack.config.debug.js",
     "release": "echo \"Build in Release mode\" && webpack --config webpack.config.release.js",
