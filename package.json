@@ -31,7 +31,7 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "three": "^0.115.0"
+    "three": "^0.137.0"
   },
   "optionalDependencies": {
     "obj2gltf": "^3.1.0"
